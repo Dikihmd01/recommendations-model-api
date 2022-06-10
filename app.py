@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -36,4 +36,3 @@ def recommendations(vac_1):
 
 if __name__ == '__main__':
     app.run()
-
